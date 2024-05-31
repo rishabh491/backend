@@ -15,11 +15,12 @@ connectDB();
 
 //rest object
 const app = express();
+app.use(cors())
 
 //middelwares
 app.use(express.json());
 app.use(morgan("dev"));
-app.use(cors())
+
 
 //routes
 app.use("/api/v1/auth", authRoutes);
