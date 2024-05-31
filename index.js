@@ -20,6 +20,7 @@ connectDB();
 
 //rest object
 const app = express();
+app.oprions("",cors(corsConfig));
 app.use(cors())
 
 //middelwares
