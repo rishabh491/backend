@@ -5,6 +5,11 @@ import morgan from "morgan";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoute.js";
 import cors from "cors"
+const corsConfig={
+  origin:"*",
+  credential:true,
+  method:["GET","PUT","POST","DELETE"]
+}
 import productRoute from "./routes/productRoute.js";
 
 //configure env
