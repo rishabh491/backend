@@ -8,7 +8,7 @@ import cors from "cors"
 const corsConfig={
   origin:"*",
   credential:true,
-  method:["GET","PUT","POST","DELETE"]
+  methods:["GET","PUT","POST","DELETE"]
 }
 import productRoute from "./routes/productRoute.js";
 
