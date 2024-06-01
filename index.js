@@ -16,11 +16,11 @@ import productRoute from "./routes/productRoute.js";
 dotenv.config();
 
 //databse config
-connectDB();
+connectDB():
 
 //rest object
 const app = express();
-app.oprions("",cors(corsConfig));
+app.options("",cors(corsConfig));
 app.use(cors())
 
 //middelwares
