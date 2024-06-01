@@ -2,7 +2,7 @@ import productModel from "../models/productModel.js";
 import fs from "fs";
 import braintree from "braintree";
 import dotenv from "dotenv";
-import orderMOdel from "../models/orderMOdel.js";
+import orderMOdel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 
 dotenv.config();
